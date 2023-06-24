@@ -1,0 +1,4 @@
+We wrapped the null values in Enum called Values
+to handle inserting in Octree if one/more of the values = null we set it to the max value derived from the metadata and we have flags in reference
+to indicate whether each of the 3 attributes is null or not
+same when searching/deleting

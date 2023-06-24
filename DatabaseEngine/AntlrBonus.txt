@@ -1,0 +1,4 @@
+for the antlr bonus we made a selectStatement in antlr then in the DBApp class we implemented the parseSQL method that takes a stringBuffer
+it generates a parse tree according to the selectStatement we have in the grammar and from this parsetree we get the table name , column names , operators
+we create array of sqlTerms according to the columns, values , table name , operations and we generate array of operators 
+and then pass these 2 arrays to the method selectFromTable we implemented in this milestone
